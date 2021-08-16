@@ -1,0 +1,471 @@
+/*index*/
+body{
+    background-color: #ffffff;
+    font-family: 'arial', sans-serif;
+    margin: 0;
+}
+.container{
+    text-align: center;
+    margin-top: 1%;
+}
+.form-grup{
+    background-color: #e7e8e8;
+    margin: auto;
+    width: 30%;
+}
+.title{
+    color: #1fb361;
+    text-align: center;
+}
+.form-control{
+    width: 60%;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    align-self: center;
+}
+.boton{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    margin: auto ;
+    background-color: #0CAF54;
+    height: 30px;
+    width: 30%;
+    border-style: none;
+}
+.registrate{
+    color: #0CAF54;
+    margin: auto;
+}
+
+/*Registro usuario*/
+.form-grup-registro-usuario{
+    background-color: #e7e8e8;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+.formRegistro{
+    padding: 30px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.formDiv {
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.greenTextSmall {
+    color: #0CAF54;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.text-registro{
+    font-weight: bold;
+    width: 50%;
+}
+.select {
+    width: 62%;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    align-self: center;
+}
+.endFooter {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+    padding: 50px;
+}
+.buttonsDiv{
+    margin: auto ;
+    display: flex;
+    width: 100%; 
+    flex-direction: row;
+}
+
+/*Registro vehiculo*/
+.form-group-registro-vehiculo{
+    background-color: #e7e8e8;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+.boton-datos{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    margin: auto ;
+    background-color: #0CAF54;
+    height: 30px;
+    width: 40%;
+    border-style: none;
+}
+
+/*menu*/
+.container-menu{
+    margin: auto;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+.card{
+    box-shadow: 0 4px 8px 0    rgba(0, 0, 0, 0.6);
+    margin: 50px 55px;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #13CE66;
+}
+.links-menu{
+    font-weight: bold;
+    align-self: center;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+} 
+header{
+    background: #13CE66;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 85px; 
+    padding: 20px;
+    display: flex;
+}
+
+/*perfil*/
+.mainContainer{
+    max-width: 800px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.profile {
+    max-width: 150px;
+    margin-left: 100%;
+    border-radius: 100%;
+    color: #0CAF54;
+}
+.information {
+    margin: auto ;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0; 
+}
+.document{
+    font-weight: bold;
+    color: #0CAF54;
+    margin-top: 0; 
+}
+.personalInformationGreen {
+    display: flex;
+    flex-direction: row;
+    background-color: #0CAF54;
+}
+.personalInformationGreen {
+    display: flex;
+    flex-direction: row;
+    background-color: #0CAF54;
+}
+.whiteText {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.borderWhite4{
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+.firstSpace {
+    width: 30%;
+    text-align: center;
+}
+.borderWhite1 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.borderWhite2 {
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.borderWhite3{
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+.paddingOutside {
+    padding: 30px
+}
+.whiteTextSmall {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+}
+.select-perfil{
+    background-color: #f4f4f4;
+    width: 62%;
+    margin-top: 15px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    height: 25px;
+}
+.inputs{
+    background-color: #f4f4f4;
+    width: 60%;
+    border-style: none;
+    height: 25px;
+    outline: none;
+    font-size: 20px;
+    margin-top: auto;
+}
+.borderGreen1 {
+    border-right: 1px solid #0CAF54;
+    border-bottom: 1px solid #0CAF54;
+}
+.greenText {
+    color: #0CAF54;
+    font-size: 16px;
+    font-weight: bold;
+}
+.borderGreen2 {
+    border-left: 1px solid #0CAF54;
+    border-bottom: 1px solid #0CAF54;
+}
+.secondSpace {
+    width: 70%
+}
+.personalInformationWhite {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.borderGreen3{
+    border-right: 1px solid #0CAF54;
+    border-top: 1px solid #0CAF54;
+}
+.borderGreen4{
+    border-left: 1px solid #0CAF54;
+    border-top: 1px solid #0CAF54;
+}
+.select-white{
+    background-color: #f4f4f4;
+    width: 60%;
+    height: 25px;
+    outline: none;
+    font-size: 20px;
+    margin-top: auto;
+    border: 1px solid; 
+}
+.inputs-white{
+    background-color: #f4f4f4;
+    width: 60%;
+    height: 20px;
+    outline: none;
+    font-size: 20px;
+    margin-top: auto;
+    border: 1px solid; 
+}
+.button{
+    color: #0CAF54;
+    margin-top: 50px;
+    justify-content: center;
+    border: 0;
+    margin: auto ;
+    height: 40px;
+    width: 50%
+}
+
+/*perfil*/
+.imagen_puntuacion{
+    margin: -10px 700px;
+    width: 230px;
+    height: 230px;
+}
+.container-puntuacion{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+}
+.form-group-puntos {
+    margin-top: 25%;
+    background-color: #e7e9e8;
+    width: 100%;
+}
+.formDiv-puntos{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #13CE66;
+    color: white;
+    width: 15%;
+    height: 35px;
+    outline: none;
+    justify-content: center;
+}
+.text-registro-puntos{
+    align-self: center;    
+    font-weight: bold;
+}
+
+/*admin-infracciones*/
+.header-infracciones{
+    background: #13CE66;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 85px; 
+    padding: 20px;
+    justify-content: space-between;
+}
+.imagen_administrador{
+    width: 230px;
+    height: 230px;
+    float: left;
+}
+.title-admin{
+    align-self: center;    
+    font-weight: bold;    
+}
+.container-admin-infracciones{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+}
+.busqueda{
+    width: 30%;
+    height: 15%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+.boton-busqueda{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    background-color: #0CAF54;
+    height: 37px;
+    width: 7%;
+    border-style: none;
+}
+.form-grup-admin-infracciones{
+    background-color: #e7e8e8;
+    margin: auto;
+    width: 40%;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.boton-admin-infracciones{
+    margin: auto ;
+    display: flex; 
+    flex-direction: row;        
+}
+.boton-infracciones{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    background-color: #0CAF54;
+    height: 37px;
+    width: 120px;
+    border-style: none;
+}
+
+/*admin pico y placa*/
+.header-pico-y-placa{
+    background: #13CE66;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 85px; 
+    padding: 20px;
+    justify-content: space-between;
+}
+.container-pico-y-placa{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+}
+.formDiv-admin-pico-y-placa{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 90%;
+    height: 35px;
+    outline: none;
+    justify-content: center;
+}
+.form-group-pico-y-placa {
+    margin-top: 25%;
+    background-color: #e7e9e8;
+    width: 100%;
+}
+.form-pico-y-placa{
+    padding: 30px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/*planificador*/
+.imagen_planificador{
+    margin: -10px 700px;
+    width: 230px;
+    height: 230px;
+}
+.container-planificador{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+}
+.form-group-planificador {
+    margin-top: 15%;
+    background-color: #e7e9e8;
+    width: 100%;
+}
+.form-planificador{
+    padding: 25px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.text-planificador{
+    font-weight: bold;
+    width: 40%; 
+}
+.formDiv-planificador{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 50%;
+    height: 40px;
+    outline: none;
+    justify-content: center;
+}
+#date{
+    width: 100%;
+    height: 100%;
+}

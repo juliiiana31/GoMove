@@ -1,0 +1,525 @@
+/*index*/
+body{
+    background-color: #ffffff;
+    font-family: 'arial', sans-serif;
+    margin: 0;
+}
+.container-index{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-grup{
+    margin: 50px 500px 0;
+    margin-top: 0;
+    background-color: #e7e8e8;
+    margin: auto;
+    width: 100%;
+}
+.form-control{
+    margin-top: 15px;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+.boton{
+    width:130px; 
+    height:35px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    margin: auto ;
+    color: white;
+    background-color: #0CAF54;
+    height: 50px;
+    width: 50%;
+    border-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+} 
+
+.registrate{
+    color: #0CAF54;
+    margin: auto;
+}
+
+.inputs {
+    background-color: #f4f4f4;
+    width: 60%;
+    border-style: none;
+    height: 40px;
+    outline: none;
+    font-size: 20px;
+}
+
+.text-registro{
+    font-weight: bold;
+    align-self: center;
+    width: 40%;
+}
+.formDiv {
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 20px;
+}
+
+.formRegistro {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*registroUsuario*/
+.endFooter {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 35px;
+}
+
+.buttonsDiv{
+    margin: auto ;
+    display: flex;
+    width: 100%; 
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+}
+
+.container-menu {
+    margin: auto;
+}
+
+.image {
+    text-align: center;
+    width: 100%;
+}
+
+.select {
+    background-color: #f4f4f4;
+    width: 62%;
+    margin-top: 15px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    height: 35px;
+}
+
+.select-perfil{
+    background-color: #f4f4f4;
+    width: 62%;
+    margin-top: 15px;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    height: 25px;
+}
+
+.title {
+    color: #1fb361;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin: auto;
+    background-color: #e7e9e8;
+    width: 100%;
+}
+
+.container{
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+option {
+    text-align: center;
+    outline: none;
+    border-style: none;
+}
+
+.inputs {
+    background-color: #f4f4f4;
+    width: 60%;
+    border-style: none;
+    height: 40px;
+    outline: none;
+    font-size: 20px;
+    margin-top: auto;
+}/*Todas se estan usando hasta aqui*/
+
+/*Perfil*/
+.mainContainer {
+    max-width: 800px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.profile {
+    max-width: 150px;
+    margin-left: 100%;
+    border-radius: 100%;
+    color: #0CAF54;
+}
+.inputs-white{
+    background-color: #f4f4f4;
+    width: 60%;
+    height: 20px;
+    outline: none;
+    font-size: 20px;
+    margin-top: auto;
+    border: 1px solid; 
+}
+
+.select-white{
+    background-color: #f4f4f4;
+    width: 60%;
+    height: 25px;
+    outline: none;
+    font-size: 20px;
+    margin-top: auto;
+    border: 1px solid; 
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0; 
+}
+
+.document{
+    font-weight: bold;
+    color: #0CAF54;
+    margin-top: 0; 
+}
+
+.information {
+    margin: auto ;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.personalInformationGreen {
+    display: flex;
+    flex-direction: row;
+    background-color: #0CAF54;
+}
+
+.personalInformationWhite {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.whiteText {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.greenText {
+    color: #0CAF54;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.borderWhite1 {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.borderWhite2 {
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.borderWhite3{
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.borderWhite4{
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.borderGreen1 {
+    border-right: 1px solid #0CAF54;
+    border-bottom: 1px solid #0CAF54;
+}
+
+.borderGreen2 {
+    border-left: 1px solid #0CAF54;
+    border-bottom: 1px solid #0CAF54;
+}
+
+.borderGreen3{
+    border-right: 1px solid #0CAF54;
+    border-top: 1px solid #0CAF54;
+}
+
+.borderGreen4{
+    border-left: 1px solid #0CAF54;
+    border-top: 1px solid #0CAF54;
+}
+
+.firstSpace {
+    width: 30%;
+    text-align: center;
+}
+
+.secondSpace {
+    width: 70%
+}
+
+.whiteTextSmall {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.greenTextSmall {
+    color: #0CAF54;
+    font-size: 14px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.paddingOutside {
+    padding: 30px
+}
+
+.inputs {
+    width: 60%;
+    height: 20px;
+    margin-top: 15px;
+    outline: none;
+}
+
+
+.endFooter{
+    padding: 50px
+}
+
+.buttonsDiv{
+    margin: auto ;
+    color: #0CAF54;
+    display: flex;
+    width: 100%; 
+    flex-direction: row;
+}
+
+.button{
+    color: #0CAF54;
+    margin-top: 10px;
+    justify-content: center;
+    border: 0;
+    margin: auto ;
+}
+.button{
+    margin: auto ;
+    height: 50px;
+    width: 50%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0    rgba(0, 0, 0, 0.6);
+    margin: 50px 55px;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #13CE66;
+}
+
+.links-menu{
+    font-weight: bold;
+    align-self: center;
+    color: white;
+}
+
+header{
+    background: #13CE66;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 85px; 
+    padding: 20px;
+    display: flex;
+}
+
+.informacion-usario{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    margin: 10px 0;
+}
+.form-grup2{
+    background-color: #13CE66;
+    margin-button:10px;
+}
+
+.form-grup3{
+    background-color: white;
+    margin-button:10px;
+}
+
+.informacion-vehiculo{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.informacion-perfil{
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.informacion-perfil-v{
+    font-size: 20px;
+}
+
+.Botones{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #13CE66;
+    padding: 45px;
+}
+
+.Botones a{
+    text-decoration: none;
+    color: #13CE66;
+
+}
+
+.Botones button{
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    justify-content: center;   
+}
+
+.header-usuario{
+    background: white;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 85px;
+    padding: 20px;
+    display: flex;
+}
+
+.Nombre-usuario{
+    color: black;
+}
+
+.tipodocumento{
+    color: #13CE66;
+}
+
+.container-vehiculo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-grup-vehiculo{
+    margin: 20px 400px 0;
+    margin-top: 0;
+    background-color: #e7e8e8;
+}
+
+.imagen_puntuacion{
+    margin: -10px 700px;
+    width: 230px;
+    height: 230px;
+}
+
+.form-group-puntuacion {
+    margin: auto;
+    margin-top: 100%;
+    background-color: #e7e9e8;
+    width: 100%;
+    align-content: center;
+}
+.formDiv-puntos{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    background-color: #13CE66;
+    color: white;
+    width: 15%;
+    height: 35px;
+    outline: none;
+    justify-content: center;
+
+}
+
+.form-group-puntos {
+    margin-top: 25%;
+    background-color: #e7e9e8;
+    width: 100%;
+}
+
+.text-registro-puntos{
+    align-self: center;    
+    font-weight: bold;
+}
+
+.boton-puntos{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: white;
+}
+
+.busqueda{
+    width: 400px;
+    height: 20px;
+}
+
+header-infracciones{
+    background: #13CE66;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    height: 85px; 
+    padding: 20px;
+}
